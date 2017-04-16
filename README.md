@@ -6,6 +6,10 @@ Designed for use with the CryptoSteel wallet, which only stores four letters per
 
 While hardware wallets like Ledger and Trezor already have built-in this functionality, here I've made it a JS module for reuse.
 
+## Installation
+
+`npm install recover-bip39`
+
 ## Usage
 
 ```javascript
