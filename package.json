@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eth-hd-keyring": "^1.2.0"
+    "bip39": "^2.3.0"
+  },
+  "devDependencies": {
+    "eth-hd-keyring": "^1.2.0",
+    "tape": "^4.6.3"
   }
 }
