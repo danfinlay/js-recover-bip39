@@ -4,7 +4,8 @@
   "description": "Allows the recovery of mnemonics using only the first four letters of each word.",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "build": "browserify example/index.js -o build/index.js"
   },
   "author": "Dan Finlay <dan@danfinlay.com>",
   "license": "ISC",
