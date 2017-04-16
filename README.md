@@ -13,6 +13,6 @@ var recoverMnemonicFromTruncated = require('recover-bip39')
 var truncated = 'cart tong pref impr sell dete alte enac virt long join ice'
 
 var recovered = recoverMnemonicFromTruncated(truncated)
-assert.equal(recovered, 'cart tongue prefer improve sell detect alter enact virtual long join ice<Paste>')
+assert.equal(recovered, 'cart tongue prefer improve sell detect alter enact virtual long join ice')
 ```
 
