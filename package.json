@@ -1,12 +1,12 @@
 {
-  "name": "mnemonic-recovery",
+  "name": "recover-bip39",
   "version": "1.0.0",
-  "description": "",
+  "description": "Allows the recovery of mnemonics using only the first four letters of each word.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Dan Finlay <dan@danfinlay.com>",
   "license": "ISC",
   "dependencies": {
     "bip39": "^2.3.0"
@@ -14,5 +14,27 @@
   "devDependencies": {
     "eth-hd-keyring": "^1.2.0",
     "tape": "^4.6.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyswatter/js-recover-bip39.git"
+  },
+  "keywords": [
+    "ethereum",
+    "bitcoin",
+    "cryptography",
+    "bip39",
+    "mnemonic",
+    "recovery",
+    "hardware",
+    "trezor",
+    "ledger"
+  ],
+  "bugs": {
+    "url": "https://github.com/flyswatter/js-recover-bip39/issues"
+  },
+  "homepage": "https://github.com/flyswatter/js-recover-bip39#readme"
 }
